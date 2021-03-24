@@ -20,6 +20,6 @@ spec:
           image: customimage:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8090
+            - containerPort: 8080
       
         
