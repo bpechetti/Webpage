@@ -5,7 +5,8 @@ metadata:
   labels:
     app: webapp
 spec:
-  ports:
+  type: NodePort
+  ports:  
   - port: 8090
     targetPort: 8090
   selector:
