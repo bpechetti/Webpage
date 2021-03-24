@@ -18,7 +18,7 @@ spec:
       containers: 
         - name: mycontainerwebapp
           image: customimage:latest
-        ports:
-        - containerPort: 8090
-      serviceAccountName: myAccount
+          ports:
+            - containerPort: 8090
+      
         
