@@ -16,7 +16,7 @@ spec:
     spec:
       containers: 
         - name: mycontainerwebapp
-          image: custom-sample:latest
+          image: customimage:latest
         ports:
         - containerPort: 8090
         
